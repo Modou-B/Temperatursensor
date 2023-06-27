@@ -1,2 +1,2 @@
 # Temperatursensor
-Finde die aktuelle Temperatur in deinem Raum raus.
+Bekomme die aktuelle Temperatur und Luftfeuchtigkeit in deinem Raum raus.
