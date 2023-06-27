@@ -1,0 +1,6 @@
+framework module Pods_dht22_macOS {
+  umbrella header "Pods-dht22-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

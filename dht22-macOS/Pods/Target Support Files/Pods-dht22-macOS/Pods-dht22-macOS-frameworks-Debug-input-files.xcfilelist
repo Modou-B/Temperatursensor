@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-dht22-macOS/Pods-dht22-macOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework
+${BUILT_PRODUCTS_DIR}/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket.framework

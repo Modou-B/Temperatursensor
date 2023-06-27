@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0670BDB8E3FD26FD48C94B6E /* Pods_dht22_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F286727A36A5FF84AF932BB /* Pods_dht22_iOS.framework */; };
+		7C39DCD22A4A2F47007C7D87 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39DCD12A4A2F47007C7D87 /* MQTTManager.swift */; };
+		7C39DCD42A4A2F4B007C7D87 /* MQTTAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39DCD32A4A2F4B007C7D87 /* MQTTAppState.swift */; };
+		7CF428F42A48B1F40001769A /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF428F32A48B1F40001769A /* home.swift */; };
+		7CF428F62A48B2110001769A /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF428F52A48B2110001769A /* settings.swift */; };
+		7CF531BD2A48B05800495AD7 /* dht22_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF531BC2A48B05800495AD7 /* dht22_iOSApp.swift */; };
+		7CF531BF2A48B05800495AD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF531BE2A48B05800495AD7 /* ContentView.swift */; };
+		7CF531C12A48B05900495AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF531C02A48B05900495AD7 /* Assets.xcassets */; };
+		7CF531C42A48B05900495AD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF531C32A48B05900495AD7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F286727A36A5FF84AF932BB /* Pods_dht22_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dht22_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C39DCD12A4A2F47007C7D87 /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		7C39DCD32A4A2F4B007C7D87 /* MQTTAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTAppState.swift; sourceTree = "<group>"; };
+		7CF428F32A48B1F40001769A /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		7CF428F52A48B2110001769A /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		7CF531B92A48B05800495AD7 /* dht22-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dht22-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF531BC2A48B05800495AD7 /* dht22_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dht22_iOSApp.swift; sourceTree = "<group>"; };
+		7CF531BE2A48B05800495AD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CF531C02A48B05900495AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF531C32A48B05900495AD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8031A54A4E0CED13E0AC1A6E /* Pods-dht22-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dht22-iOS.release.xcconfig"; path = "Target Support Files/Pods-dht22-iOS/Pods-dht22-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		AA448F1A6D1608CE74E65CF9 /* Pods-dht22-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dht22-iOS.debug.xcconfig"; path = "Target Support Files/Pods-dht22-iOS/Pods-dht22-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF531B62A48B05800495AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0670BDB8E3FD26FD48C94B6E /* Pods_dht22_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE8A485F631B30F75FF0F34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA448F1A6D1608CE74E65CF9 /* Pods-dht22-iOS.debug.xcconfig */,
+				8031A54A4E0CED13E0AC1A6E /* Pods-dht22-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		732ECF726CFA6F91897A6BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F286727A36A5FF84AF932BB /* Pods_dht22_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF428F22A48B1E80001769A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C39DCD32A4A2F4B007C7D87 /* MQTTAppState.swift */,
+				7C39DCD12A4A2F47007C7D87 /* MQTTManager.swift */,
+				7CF428F32A48B1F40001769A /* home.swift */,
+				7CF428F52A48B2110001769A /* settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CF531B02A48B05800495AD7 = {
+			isa = PBXGroup;
+			children = (
+				7CF531BB2A48B05800495AD7 /* dht22-iOS */,
+				7CF531BA2A48B05800495AD7 /* Products */,
+				1EE8A485F631B30F75FF0F34 /* Pods */,
+				732ECF726CFA6F91897A6BC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF531BA2A48B05800495AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF531B92A48B05800495AD7 /* dht22-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF531BB2A48B05800495AD7 /* dht22-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CF428F22A48B1E80001769A /* Views */,
+				7CF531BC2A48B05800495AD7 /* dht22_iOSApp.swift */,
+				7CF531BE2A48B05800495AD7 /* ContentView.swift */,
+				7CF531C02A48B05900495AD7 /* Assets.xcassets */,
+				7CF531C22A48B05900495AD7 /* Preview Content */,
+			);
+			path = "dht22-iOS";
+			sourceTree = "<group>";
+		};
+		7CF531C22A48B05900495AD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CF531C32A48B05900495AD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF531B82A48B05800495AD7 /* dht22-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF531C72A48B05900495AD7 /* Build configuration list for PBXNativeTarget "dht22-iOS" */;
+			buildPhases = (
+				AB1830CFF74A01D3B0FAD810 /* [CP] Check Pods Manifest.lock */,
+				7CF531B52A48B05800495AD7 /* Sources */,
+				7CF531B62A48B05800495AD7 /* Frameworks */,
+				7CF531B72A48B05800495AD7 /* Resources */,
+				5771528E4FC43577E95B1B96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dht22-iOS";
+			productName = "dht22-iOS";
+			productReference = 7CF531B92A48B05800495AD7 /* dht22-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF531B12A48B05800495AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7CF531B82A48B05800495AD7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7CF531B42A48B05800495AD7 /* Build configuration list for PBXProject "dht22-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF531B02A48B05800495AD7;
+			productRefGroup = 7CF531BA2A48B05800495AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF531B82A48B05800495AD7 /* dht22-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF531B72A48B05800495AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF531C42A48B05900495AD7 /* Preview Assets.xcassets in Resources */,
+				7CF531C12A48B05900495AD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5771528E4FC43577E95B1B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dht22-iOS/Pods-dht22-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dht22-iOS/Pods-dht22-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dht22-iOS/Pods-dht22-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1830CFF74A01D3B0FAD810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dht22-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF531B52A48B05800495AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF428F42A48B1F40001769A /* home.swift in Sources */,
+				7CF531BF2A48B05800495AD7 /* ContentView.swift in Sources */,
+				7CF428F62A48B2110001769A /* settings.swift in Sources */,
+				7CF531BD2A48B05800495AD7 /* dht22_iOSApp.swift in Sources */,
+				7C39DCD22A4A2F47007C7D87 /* MQTTManager.swift in Sources */,
+				7C39DCD42A4A2F4B007C7D87 /* MQTTAppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CF531C52A48B05900495AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF531C62A48B05900495AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF531C82A48B05900495AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA448F1A6D1608CE74E65CF9 /* Pods-dht22-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dht22-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = FTS45W6VH7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.dht22-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CF531C92A48B05900495AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8031A54A4E0CED13E0AC1A6E /* Pods-dht22-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dht22-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = FTS45W6VH7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MB.dht22-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF531B42A48B05800495AD7 /* Build configuration list for PBXProject "dht22-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF531C52A48B05900495AD7 /* Debug */,
+				7CF531C62A48B05900495AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF531C72A48B05900495AD7 /* Build configuration list for PBXNativeTarget "dht22-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF531C82A48B05900495AD7 /* Debug */,
+				7CF531C92A48B05900495AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF531B12A48B05800495AD7 /* Project object */;
+}
