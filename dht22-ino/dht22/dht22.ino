@@ -190,6 +190,10 @@ void loop()
         startScript = 1;
       }
   }
+  Serial.println("start: ");
+  Serial.println(String(startScript));
+  Serial.println("stop: ");
+  Serial.println(String(stopScript));
 
   if (startScript == 1) { // 1
     TempAndHumidity  data = dhtSensor.getTempAndHumidity();
@@ -210,6 +214,6 @@ void loop()
     if (restartScript == 1) {
       restartScript = 0;
     }
-    delay(8000);
   }
+  delay(4000);
 }

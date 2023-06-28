@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4196355495D6F3EE1E1A2C59 /* Pods_dht22_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811BE662E01E76694EAE9C7F /* Pods_dht22_macOS.framework */; };
+		7C275CDC2A4C17F80067BE35 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275CDB2A4C17F80067BE35 /* home.swift */; };
+		7C275CDE2A4C18060067BE35 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275CDD2A4C18060067BE35 /* settings.swift */; };
+		7C275CE02A4C1DBE0067BE35 /* MQTTAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275CDF2A4C1DBE0067BE35 /* MQTTAppState.swift */; };
+		7C275CE22A4C1DCA0067BE35 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275CE12A4C1DCA0067BE35 /* MQTTManager.swift */; };
 		7CA5EA0F2A48B03D00741E8D /* dht22_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5EA0E2A48B03D00741E8D /* dht22_macOSApp.swift */; };
 		7CA5EA112A48B03D00741E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5EA102A48B03D00741E8D /* ContentView.swift */; };
 		7CA5EA132A48B03E00741E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA5EA122A48B03E00741E8D /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* Begin PBXFileReference section */
 		1D51B97F29E0C73736745DB0 /* Pods-dht22-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dht22-macOS.release.xcconfig"; path = "Target Support Files/Pods-dht22-macOS/Pods-dht22-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		5B46FDE384746E23A3726965 /* Pods-dht22-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dht22-macOS.debug.xcconfig"; path = "Target Support Files/Pods-dht22-macOS/Pods-dht22-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7C275CDB2A4C17F80067BE35 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		7C275CDD2A4C18060067BE35 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		7C275CDF2A4C1DBE0067BE35 /* MQTTAppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTAppState.swift; sourceTree = "<group>"; };
+		7C275CE12A4C1DCA0067BE35 /* MQTTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
 		7CA5EA0B2A48B03D00741E8D /* dht22-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dht22-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA5EA0E2A48B03D00741E8D /* dht22_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dht22_macOSApp.swift; sourceTree = "<group>"; };
 		7CA5EA102A48B03D00741E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +78,10 @@
 			children = (
 				7CA5EA0E2A48B03D00741E8D /* dht22_macOSApp.swift */,
 				7CA5EA102A48B03D00741E8D /* ContentView.swift */,
+				7C275CDB2A4C17F80067BE35 /* home.swift */,
+				7C275CE12A4C1DCA0067BE35 /* MQTTManager.swift */,
+				7C275CDF2A4C1DBE0067BE35 /* MQTTAppState.swift */,
+				7C275CDD2A4C18060067BE35 /* settings.swift */,
 				7CA5EA122A48B03E00741E8D /* Assets.xcassets */,
 				7CA5EA172A48B03E00741E8D /* dht22_macOS.entitlements */,
 				7CA5EA142A48B03E00741E8D /* Preview Content */,
@@ -207,7 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C275CDC2A4C17F80067BE35 /* home.swift in Sources */,
+				7C275CE22A4C1DCA0067BE35 /* MQTTManager.swift in Sources */,
+				7C275CE02A4C1DBE0067BE35 /* MQTTAppState.swift in Sources */,
 				7CA5EA112A48B03D00741E8D /* ContentView.swift in Sources */,
+				7C275CDE2A4C18060067BE35 /* settings.swift in Sources */,
 				7CA5EA0F2A48B03D00741E8D /* dht22_macOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
